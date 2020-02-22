@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+.circle {
+  height: 100%;
+  border-radius: 100% 0 0 100%;
+  background-color: yellow;
+  background-position: right;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.coffeebeans {
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 10px;
+  position: relative;
+  max-width: 70%;
+}
+
+.product {
+  justify-content: space-between;
+  margin: auto 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shopping-cart-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cart-items {
+  display: flex;
+  justify-content: space-evenly;
+}

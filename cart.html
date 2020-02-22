@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <div class="circle">
+      <div class="coffeebeans">
+        <div class="title">Single Origin Coffee Beans</div>
+        <div class="product">
+          <span class="product-name">Brazil</span>
+          <span class="product-image">
+            <img
+              src="https://i0.wp.com/coffeeroots.co/wp-content/uploads/2019/05/brazilian-coffee-beans.jpg?fit=800%2C800&ssl=1&resize=300%2C300"
+            />
+          </span>
+          <span class="product-price">£9</span>
+          <span class="quantity">
+            <input type="button" value="Add to Cart" class="button" />
+          </span>
+        </div>
+        <div class="product">
+          <span class="product-name">Columbia</span>
+          <span class="product-image">
+            <img
+              src="https://i.ebayimg.com/images/g/C3IAAOSw1P9ZbROS/s-l300.jpg"
+            />
+          </span>
+          <span class="product-price">£8</span>
+          <span class="quantity">
+            <input type="button" value="Add to Cart" class="button" />
+          </span>
+        </div>
+        <div class="product">
+          <span class="product-name">Kenya</span>
+          <span class="product-image">
+            <img
+              src="https://grosche.ca/wp-content/uploads/2018/04/GROSCHE-kenyan-beans.jpg"
+            />
+          </span>
+          <span class="product-price">£11</span>
+          <span class="quantity">
+            <input type="button" value="Add to Cart" class="button" />
+          </span>
+        </div>
+        <section class="shoppingcart">
+          <div class="shopping-cart-title">Shopping Cart</div>
+          <div class="cart-items">
+            <span>Item</span>
+            <span>Price</span>
+            <span>Count</span>
+          </div>
+          <div class="total">
+            <span>TOTAL</span>
+            <span id="shopping-cart-total" class="cart-total"></span>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>
